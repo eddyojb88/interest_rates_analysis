@@ -3,8 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-plots/
-bis_data/
+*.csv
 
 # C extensions
 *.so
