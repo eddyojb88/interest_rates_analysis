@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+    notebook:
+        build:
+          context: .
+        ports:
+          - "8877:8877"
+          - "8866:8866"
+        volumes:
+          - .:/usr/src/app
+          - ./custom:/root/.jupyter/custom
+        environment:
+          - JUPYTER_ENABLE_LAB=yes
+        privileged: true
+          
+volumes:
+  data:

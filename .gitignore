@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+plots/
+plots
+*.html
+
 *.csv
 
 # C extensions
