@@ -6,3 +6,5 @@ scipy
 statsmodels
 openpyxl
 numpy
+matplotlib
+scikit-learn
