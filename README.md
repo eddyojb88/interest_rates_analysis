@@ -7,7 +7,7 @@ If using a virtual environment, such as venv or conda, you can use the requireme
 ## Docker
 
 For those familiar with Docker, there is a Dockerfile and compose file that can be run via 'docker compose up'
-It's a big Dockerfile but I always find slim python docker images absolutely useless as soon as I want to install ever so slightly rogue.
+It's a big Dockerfile but I usually find slim python docker images  useless as soon as I want to install something slightly off piste.
 
 # Datasets
 
