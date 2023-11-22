@@ -4,7 +4,7 @@ I assume that the user is familiar in Python and in how to load Jupyter.
 
 If using a virtual environment, such as venv or conda, you can use the requirements.txt file to load relevant Python modules.
 
-## Docker
+# Run it in Docker
 
 For those familiar with Docker, there is a Dockerfile and compose file that can be run via 'docker compose up'
 It's a big Dockerfile but I usually find slim python docker images  useless as soon as I want to install something slightly off piste.
